@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Draw any digit between 0 to 9!</h1>
+    <h1>Draw any digit between 0 to 9 on the left!</h1>
     <p>Let the AI guess it</p>
     <div class="main-wrapper">
         <div id="draw-board">
-            <h3>Draw here</h3>
             <canvas id="digit-canvas"></canvas>
         </div>
         <div class="button-wrapper">
@@ -20,12 +19,9 @@
             <button class="clear">Clear</button>
         </div>
         <div id="result-board">
-            <h3>AI guesses here</h3>
             <canvas id="result-canvas"></canvas>
         </div>
     </div>
-    
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script> -->
-    <script src="./index.js"></script>
+    <script type="module" src="./index.js"></script>
 </body>
 </html>
