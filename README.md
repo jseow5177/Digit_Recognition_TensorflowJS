@@ -7,23 +7,15 @@ A digit recognition web app that is supported by a convolutional neural network 
 
 ## Get started
 `git clone` https://github.com/jseow5177/Digit_Recognition_TensorflowJS.git
+<br/>
+<br/>
 `npm start`
 
 ## Project structure
-<ol>
-  <li>
-    The `public` folder contains the main page `index.html` and its stylings in `styles.css`. `index.js` handles the interactivity of the main page, which mainly consists of canvas logic.
-  </li>
-  <li>
-    The `model` folder contains `Digit-CNN.ipynb` which is a Google Colab notebook responsible for the training of a convolutional neural network. Note that the training of the model is minimal without sophisticated hyperparameter tuning and other deep learning techniques.
-  </li>
-  <li>
-    The `.bin` file and `model.json` are the results of saving the trained model. The `.json` file will be loaded into the server to perform prediction when the `/predict` REST endpoint is hit.
-  </li>
-  <li>
-    `server.js` is a minimal Node server that handles two routes, the main page at `/` and the prediction endpoint at `/predict`.
-  </li>
-</ol>
+1. The `public` folder contains the main page `index.html` and its stylings in `styles.css`. `index.js` handles the interactivity of the main page, which mainly consists of canvas logic.
+2. The `model` folder contains `Digit-CNN.ipynb` which is a Google Colab notebook responsible for the training of a convolutional neural network. Note that the training of the model is minimal without sophisticated hyperparameter tuning and other deep learning techniques.
+3. The `.bin` file and `model.json` are the results of saving the trained model. The `.json` file will be loaded into the server to perform prediction when the `/predict` REST endpoint is hit.
+4. `server.js` is a minimal Node server that handles two routes, the main page at `/` and the prediction endpoint at `/predict`.
 
 ## Tech Stacks
 <ul>
