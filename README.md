@@ -1,4 +1,4 @@
-# MERN Social
+# Digit Recognition App with TensorflowJS
 
 A digit recognition web app that is supported by a convolutional neural network trained with Tensorflow.
 
